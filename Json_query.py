@@ -3,7 +3,7 @@ import main
 
 
 def functionQueryJSON(city):
-	API_key =  "adb3a5935cccd116a30479ffd534be84"
+	API_key =  "**************************************"
 	URL = "https://api.openweathermap.org/data/2.5/weather"
 	parametr = {"APPID": API_key, "q": city, "units": "metric", "lang": "es"}
 	respones = requests.get(URL, params = parametr)
